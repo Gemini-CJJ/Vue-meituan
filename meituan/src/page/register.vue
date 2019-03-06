@@ -22,12 +22,13 @@
         <el-form-item label="密码" prop="password">
           <el-input type="password" v-model="registerForm.password" autocomplete="off" @input="input"></el-input>
           <div class="pw-strength">
-            <div :class="['bar',strengthClass]"></div>
-            <div class="letter">
-              <span>弱</span>
-              <span>中</span>
-              <span>强</span>
-            </div>
+            <!--<div :class="['bar',strengthClass]">-->
+            <!--<div class="letter">-->
+            <!--<span>弱</span>-->
+            <!--<span>中</span>-->
+            <!--<span>强</span>-->
+            <!--</div>-->
+            <!--</div>-->
           </div>
         </el-form-item>
         <el-form-item label="确认密码" prop="rePassword">
